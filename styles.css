@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1C2637;
+    padding: 10px 40px;
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.content {
+    max-width: 800px;
+    padding: 0 20px;
+    padding-left: 0%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* Specific Section Styles */
+
+.home {
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 50vh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/63/Blue_sunset_%287108653761%29.jpg');
+    background-size: cover;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    
+}
+
+
+/* About US Styles */
+.about {
+    background-color: #1C2637;
+    color: white;
+    min-height: 70vh;
+    text-align: left;
+
+}
+
+#about-title{
+    padding-top: 5px;
+    padding-right: 50%;
+}
+
+.about-style {
+    margin: 10%, auto;
+   
+}
+
+.about-image{
+    min-width: 350px;
+    padding-left: 100px;
+    
+}
+
+.about-text{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    text-align: left;
+    margin-left: 0px ;
+    min-width:100vh;
+    max-width: 100vh;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 100%;
+
+}
+
+/* Gallery Styles */
+.gallery {
+    background-color: #1C2637;
+    min-height: 70vh ;
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+.scroll-container {
+    background-color: #1C2637;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+.scroll-container img {
+    padding: 10px;
+  }
+  
+.gallery-images {
+    max-width: 1000px ;
+    max-height: 400px;
+    object-fit: 20%;
+    
+}
+
+#gallery-text{
+    padding-top: 5px;
+    padding-left: 50%;
+}
+
+/* Recources Styles */ 
+.recources {
+    background-color: #1C2637;
+    color: white;
+}
+
+/* Contact Styles */
+.contact {
+    background-color: #1C2637;
+    color: white;
+}
+
+.table{
+    text-align: left;
+    margin-left: 20px;
+
+
+}
+
